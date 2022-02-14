@@ -4,7 +4,7 @@ import 'package:flutter_modular/flutter_modular.dart';
 
 import 'package:flutter_playground/app/util/value/constant_colors.dart';
 
-import 'animation_implict_list_store.dart';
+import 'controllers/animation_implict_list_store.dart';
 
 import 'components/listview_implicit.dart';
 

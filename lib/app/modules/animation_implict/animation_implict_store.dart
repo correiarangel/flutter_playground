@@ -10,7 +10,6 @@ abstract class _AnimationImplictStoreBase with Store {
   bool isAnimatioRun = false;
   @action
   bool toChangesIsloading({isLoadingValue}) {
-
     if (isLoadingValue != null) {
       isAnimatioRun = isLoadingValue;
     } else if (isAnimatioRun && isLoadingValue == null) {
@@ -18,7 +17,9 @@ abstract class _AnimationImplictStoreBase with Store {
     } else if (isAnimatioRun == false && isLoadingValue == null) {
       isAnimatioRun = true;
     }
-  
+
     return isAnimatioRun;
   }
+
+  
 }

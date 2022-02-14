@@ -1,15 +1,17 @@
+
 import 'package:flutter/material.dart';
+
 import 'herois_card_implicit.dart';
 
-
 import '../../../shared/models/heroi_model.dart';
-
 
 class ListViewImplicit extends StatelessWidget {
   final List<HeroiModel>? heroiModels;
 
-  const ListViewImplicit({Key? key, required this.heroiModels})
-      : super(key: key);
+  const ListViewImplicit({
+    Key? key,
+    required this.heroiModels,
+  }) : super(key: key);
   bool testListHeroi() {
     if (heroiModels == null || heroiModels!.isEmpty) {
       return false;

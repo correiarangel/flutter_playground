@@ -1,6 +1,6 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
-part of 'animation_implict_list_store.dart';
+part of 'controllers/animation_implict_list_store.dart';
 
 // **************************************************************************
 // StoreGenerator

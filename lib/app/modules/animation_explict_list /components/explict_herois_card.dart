@@ -56,7 +56,6 @@ class _HeroiCardExplictState extends State<HeroiCardExplict>
     ).animate(
       animationController,
     );
-    setState(() {});
     super.initState();
   }
 
